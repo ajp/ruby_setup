@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# DESCRIPTION
+# Executes the command line interface.
+
+# USAGE
+# ./run.sh OPTION
+
+# SETTINGS
+source settings/settings.sh
+
+# FUNCTIONS
+source functions/utilities.sh
+source functions/options.sh
+
+# EXECUTION
+while true; do
+  if [[ $# == 0 ]]; then
+    printf "\nUsage: run OPTION\n\n"
+    printf "Ruby Setup Options:\n"
+    printf "  c: Install certificates.\n"
+    printf "  b: Install and configure Bundler.\n"
+    printf "  g: Install gems.\n"
+    printf "  i: Install everything (i.e. certificates, Bundler, and gems).\n"
+    printf "  q: Quit/Exit.\n\n"
+    read -p "Enter selection: " response
+    printf "\n"
+    process_option $response
+  else
+    process_option $1
+    printf "\n"
+  fi
+done

@@ -1,0 +1,110 @@
+#--------------#
+# Default Gems #
+#--------------#
+
+# Gems
+gem-ctags
+gemwhois
+gemsmith --trust-policy MediumSecurity
+
+# Git
+gitfinger
+octokit
+
+# Command Line Interface (CLI)
+ruby-progressbar
+
+# Databases
+sqlite3
+pg
+redis
+redis-namespace
+db --trust-policy MediumSecurity
+
+# Servers
+unicorn
+
+# Application
+rake
+rails
+rmagick
+
+# Performance
+fast_blank
+deep_tree
+oj
+
+# Security
+bcrypt
+brakeman
+codesake-dawn
+
+# Development
+dotenv-rails
+pry
+pry-byebug
+pry-remote
+pry-rescue
+pry-stack_explorer
+bond
+wirb
+hirb
+awesome_print
+priscilla
+rails-erd
+railroady
+spring
+spring-commands-rspec
+
+# Testing
+database_cleaner
+factory_girl_rails
+rspec-rails --trust-policy MediumSecurity
+rspec-html-matchers
+ammeter
+timecop
+vcr
+launchy
+capybara
+capybara-extensions
+jasmine
+poltergeist
+aruba
+memfs
+
+# Metrics
+lol_dba
+tracer_bullets
+browser_details
+request-log-analyzer
+fnordmetric
+site_validator
+gctools
+memory_profiler
+
+# Continuous Integration (CI)
+travis
+travis-lint
+
+# Code Quality
+simplecov
+csscss
+cane
+rails_best_practices
+
+# Deployment
+capistrano
+heroku_plus --trust-policy MediumSecurity
+
+# Documentation
+inch
+
+# Utilities
+sublime_text_kit --trust-policy MediumSecurity
+pennyworth --trust-policy MediumSecurity
+flacsmith --trust-policy MediumSecurity
+showterm
+powder
+rubocop
+foreman
+t
