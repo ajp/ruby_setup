@@ -3,7 +3,7 @@
 #----------------------#
 
 # Alchemists (for all gems)
-http://www.alchemists.io/gem-public.pem
+https://www.alchemists.io/gem-public.pem
 
 # Codesake::Dawn
 https://raw.githubusercontent.com/codesake/codesake-dawn/master/certs/paolo_at_codesake_dot_com.pem
