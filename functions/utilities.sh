@@ -30,6 +30,7 @@ function install_bundler() {
   local bundler_config="$HOME/.bundle/config"
 
   gem install bundler
+  rbenv rehash
   bundle config --global jobs $max_jobs
 }
 export -f install_bundler
