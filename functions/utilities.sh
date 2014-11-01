@@ -60,3 +60,9 @@ function install_gems() {
   fi
 }
 export -f install_gems
+
+function apply_ctags() {
+  rbenv rehash
+  gem ctags
+}
+export -f apply_ctags

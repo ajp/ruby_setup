@@ -21,7 +21,8 @@ while true; do
     printf "  c: Install certificates.\n"
     printf "  b: Install and configure Bundler.\n"
     printf "  g: Install gems.\n"
-    printf "  i: Install everything (i.e. certificates, Bundler, and gems).\n"
+    printf "  t: Apply ctags.\n"
+    printf "  i: Install everything (i.e. executes all options, listed above, top to bottom).\n"
     printf "  q: Quit/Exit.\n\n"
     read -p "Enter selection: " response
     printf "\n"
