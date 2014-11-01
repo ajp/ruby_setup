@@ -24,6 +24,7 @@ function process_option() {
       install_certs
       install_bundler
       install_gems
+      apply_ctags
       break;;
     'q')
       break;;
