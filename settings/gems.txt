@@ -37,7 +37,7 @@ oj
 # Security
 bcrypt
 brakeman
-codesake-dawn
+dawn
 
 # Development
 dotenv-rails
