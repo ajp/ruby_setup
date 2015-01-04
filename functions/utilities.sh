@@ -3,7 +3,7 @@
 # DESCRIPTION
 # Defines general utility functions.
 
-function install_certs() {
+install_certs() {
   if [[ -f "$CERTS_SOURCE_PATH" ]]; then
     printf "Installing certificates...\n"
 
@@ -25,7 +25,7 @@ function install_certs() {
 }
 export -f install_certs
 
-function install_bundler() {
+install_bundler() {
   local max_jobs=$((`sysctl -n hw.ncpu` - 1))
   local bundler_config="$HOME/.bundle/config"
 
@@ -35,7 +35,7 @@ function install_bundler() {
 }
 export -f install_bundler
 
-function install_gems() {
+install_gems() {
   if [[ -f "$GEMS_SOURCE_PATH" ]]; then
     printf "Installing gems...\n"
 
@@ -61,7 +61,7 @@ function install_gems() {
 }
 export -f install_gems
 
-function apply_ctags() {
+apply_ctags() {
   rbenv rehash
   gem ctags
 }
