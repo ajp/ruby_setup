@@ -21,9 +21,6 @@ redis
 redis-namespace
 db --trust-policy MediumSecurity
 
-# Servers
-unicorn
-
 # Application
 rake
 rails
