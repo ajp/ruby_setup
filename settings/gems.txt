@@ -59,7 +59,6 @@ factory_girl_rails
 rspec-rails --trust-policy MediumSecurity
 rspec-html-matchers
 ammeter
-timecop
 vcr
 launchy
 capybara
