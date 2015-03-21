@@ -21,6 +21,9 @@ redis
 redis-namespace
 db --trust-policy MediumSecurity
 
+# Servers
+puma
+
 # Application
 rake
 rails
