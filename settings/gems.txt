@@ -52,8 +52,6 @@ awesome_print
 priscilla
 rails-erd
 railroady
-spring
-spring-commands-rspec
 
 # Testing
 database_cleaner
