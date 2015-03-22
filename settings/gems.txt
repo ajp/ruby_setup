@@ -29,9 +29,6 @@ rake
 rails
 rmagick
 
-# Performance
-oj
-
 # Security
 bcrypt
 brakeman
