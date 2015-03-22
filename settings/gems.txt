@@ -50,7 +50,6 @@ railroady
 
 # Testing
 rspec-rails --trust-policy MediumSecurity
-memfs
 
 # Metrics
 lol_dba
