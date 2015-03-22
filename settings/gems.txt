@@ -30,7 +30,6 @@ rails
 rmagick
 
 # Performance
-fast_blank
 deep_tree
 oj
 
