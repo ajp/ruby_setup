@@ -53,7 +53,6 @@ rspec-rails --trust-policy MediumSecurity
 
 # Metrics
 lol_dba
-browser_details
 request-log-analyzer
 fnordmetric
 site_validator
