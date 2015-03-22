@@ -69,6 +69,7 @@ travis-lint
 simplecov
 csscss
 cane
+rubocop
 rails_best_practices
 
 # Deployment
@@ -84,6 +85,5 @@ pennyworth --trust-policy MediumSecurity
 flacsmith --trust-policy MediumSecurity
 showterm
 powder
-rubocop
 foreman
 t
