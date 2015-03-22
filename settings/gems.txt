@@ -49,7 +49,6 @@ rails-erd
 railroady
 
 # Testing
-factory_girl_rails
 rspec-rails --trust-policy MediumSecurity
 rspec-html-matchers
 vcr
