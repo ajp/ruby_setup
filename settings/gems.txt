@@ -30,7 +30,6 @@ rails
 rmagick
 
 # Performance
-deep_tree
 oj
 
 # Security
