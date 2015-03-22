@@ -50,7 +50,6 @@ railroady
 
 # Testing
 rspec-rails --trust-policy MediumSecurity
-rspec-html-matchers
 vcr
 launchy
 capybara
