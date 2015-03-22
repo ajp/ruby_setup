@@ -50,7 +50,6 @@ railroady
 
 # Testing
 rspec-rails --trust-policy MediumSecurity
-jasmine
 poltergeist
 aruba
 memfs
