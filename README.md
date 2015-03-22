@@ -28,19 +28,14 @@ be installed via a single command.
         - [Redis Namespace](https://github.com/resque/redis-namespace)
         - [DB](https://github.com/bkuhlmann/db)
     - Servers
-        - [Unicorn](http://unicorn.bogomips.org)
+        - [Puma](http://puma.io)
     - Application
         - [Rake](http://rake.rubyforge.org)
         - [Ruby on Rails](http://rubyonrails.org)
         - [RMagick](https://github.com/rmagick/rmagick)
-    - Performance
-        - [Fast Blank](https://github.com/SamSaffron/fast_blank)
-        - [Deep Tree](https://github.com/PatrickTulskie/deep_tree)
-        - [Oj](https://github.com/ohler55/oj)
     - Security
         - [Bcrypt](https://github.com/codahale/bcrypt-ruby)
         - [Brakeman](https://github.com/presidentbeef/brakeman)
-        - [Codesake Dawn](https://github.com/codesake/codesake-dawn)
     - Development
         - [Dotenv Rails](https://github.com/bkeepers/dotenv)
         - [Pry](https://github.com/pry/pry)
@@ -55,27 +50,10 @@ be installed via a single command.
         - [Priscilla](https://github.com/Arkham/priscilla)
         - [Rails ERD](http://rails-erd.rubyforge.org)
         - [Railroady](https://github.com/preston/railroady)
-        - [Spring](https://github.com/rails/spring)
-        - [Spring Commands RSpec](https://github.com/jonleighton/spring-commands-rspec)
     - Testing
-        - [Database Cleaner](https://github.com/bmabey/database_cleaner)
-        - [Factory Girl Rails](https://github.com/thoughtbot/factory_girl_rails)
         - [RSpec Rails](https://github.com/dchelimsky/rspec-rails)
-        - [RSpec HTML Matchers](https://github.com/kucaahbe/rspec-html-matchers)
-        - [Ammeter](https://github.com/alexrothenberg/ammeter)
-        - [TimeCop](https://github.com/travisjeffery/timecop)
-        - [VCR](https://github.com/vcr/vcr)
-        - [Launchy](https://github.com/copiousfreetime/launchy)
-        - [Capybara](https://github.com/jnicklas/capybara)
-        - [Capybara Extensions](https://github.com/dockyard/capybara-extensions)
-        - [Jasmine](http://jasmine.github.io)
-        - [Poltergeist](https://github.com/teampoltergeist/poltergeist)
-        - [Aruba](https://github.com/cucumber/aruba)
-        - [MemFs](https://github.com/simonc/memfs)
     - Metrics
         - [LoL DBA](https://github.com/plentz/lol_dba)
-        - [Tracer Bullets](https://github.com/n8/tracer_bullets)
-        - [Browser Details](https://github.com/gshutler/browser_details)
         - [Request Log Analyzer](https://github.com/wvanbergen/request-log-analyzer)
         - [FnordMetric](https://github.com/paulasmuth/fnordmetric)
         - [Site Validator](https://github.com/jaimeiniesta/site_validator)
@@ -88,6 +66,7 @@ be installed via a single command.
         - [SimpleCov](https://github.com/colszowka/simplecov)
         - [CSS CSS](https://github.com/zmoazeni/csscss)
         - [Cane](https://github.com/square/cane)
+        - [Rubocop](https://github.com/bbatsov/rubocop)
         - [Rails Best Practices](https://github.com/railsbp/rails_best_practices)
     - Deployment
         - [Capistrano](https://github.com/capistrano/capistrano)
@@ -100,7 +79,6 @@ be installed via a single command.
         - [Flacsmith](https://github.com/bkuhlmann/flacsmith)
         - [Showterm](https://github.com/Conradirwin/showterm)
         - [Powder](https://github.com/Rodreegez/powder)
-        - [Rubocop](https://github.com/bbatsov/rubocop)
         - [Foreman](https://github.com/ddollar/foreman)
         - [t](https://github.com/sferik/t)
 
@@ -116,7 +94,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/ruby_setup.git
     cd ruby_setup
-    git checkout v1.0.0
+    git checkout v2.0.0
 
 Master Version (unstable):
 
@@ -139,7 +117,8 @@ Running the script will present the following options:
     c: Install certificates.
     b: Install and configure Bundler.
     g: Install gems.
-    i: Install everything (i.e. certificates, Bundler, and gems).
+    t: Apply ctags.
+    i: Install everything (i.e. executes all options, listed above, top to bottom).
     q: Quit/Exit.
 
 Choose option 'i' to install.
