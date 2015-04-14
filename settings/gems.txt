@@ -49,7 +49,7 @@ rails-erd
 railroady
 
 # Testing
-rspec-rails --trust-policy MediumSecurity
+rspec-rails
 
 # Metrics
 lol_dba

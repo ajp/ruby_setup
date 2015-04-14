@@ -4,6 +4,3 @@
 
 # Alchemists Gems
 https://www.alchemists.io/gem-public.pem
-
-# RSpec
-https://raw.githubusercontent.com/rspec/rspec/master/certs/rspec.pem
