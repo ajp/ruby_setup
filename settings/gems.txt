@@ -81,7 +81,6 @@ inch
 sublime_text_kit --trust-policy MediumSecurity
 pennyworth --trust-policy MediumSecurity
 flacsmith --trust-policy MediumSecurity
-showterm
 powder
 foreman
 t
