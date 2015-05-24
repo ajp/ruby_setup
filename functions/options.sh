@@ -28,6 +28,9 @@ process_option() {
       break;;
     'q')
       break;;
+    *)
+      printf "ERROR: Invalid option.\n"
+      break;;
   esac
 }
 export -f process_option
