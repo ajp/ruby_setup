@@ -10,8 +10,8 @@
 source settings/settings.sh
 
 # FUNCTIONS
-source functions/utilities.sh
-source functions/options.sh
+source lib/utilities.sh
+source lib/options.sh
 
 # EXECUTION
 while true; do
