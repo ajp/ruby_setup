@@ -76,6 +76,7 @@ heroku_plus --trust-policy MediumSecurity
 
 # Documentation
 inch
+gem-man
 
 # Utilities
 sublime_text_kit --trust-policy MediumSecurity
