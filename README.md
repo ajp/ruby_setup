@@ -1,7 +1,5 @@
 # Ruby Setup
 
-[![Gittip](http://img.shields.io/gittip/bkuhlmann.svg)](https://www.gittip.com/bkuhlmann)
-
 Shell scripts for the installation and setup of Ruby (namely commonly used Ruby Gems).
 
 Sometimes, when setting up a new machine or installing a new Ruby VM, there is a need for automating the install of
