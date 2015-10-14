@@ -1,3 +1,17 @@
+# v3.0.0 (2015-10-14)
+
+- Fixed hanging script with invalid option.
+- Added RSpec cert and high security install of related gems.
+- Added [Pry State](https://github.com/SudhagarS/pry-state) gem.
+- Added [ruby-prof](https://github.com/ruby-prof/ruby-prof) gem.
+- Added the [Benchmark IPS](https://github.com/evanphx/benchmark-ips) gem.
+- Added the [gem-man](https://github.com/defunkt/gem-man) gem.
+- Removed brakeman gem.
+- Removed dotenv-rails.
+- Removed redis-namespace gem.
+- Removed simplecov gem.
+- Removed the showterm gem.
+
 # v2.0.0 (2015-03-22)
 
 - Removed the Unicorn gem.

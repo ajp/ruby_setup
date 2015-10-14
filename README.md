@@ -40,7 +40,6 @@ be installed via a single command.
         - [SQLite3](http://www.sqlite.org)
         - [PG](http://www.postgresql.org)
         - [Redis](https://github.com/antirez/redis)
-        - [Redis Namespace](https://github.com/resque/redis-namespace)
         - [DB](https://github.com/bkuhlmann/db)
     - Servers
         - [Puma](http://puma.io)
@@ -50,14 +49,13 @@ be installed via a single command.
         - [RMagick](https://github.com/rmagick/rmagick)
     - Security
         - [Bcrypt](https://github.com/codahale/bcrypt-ruby)
-        - [Brakeman](https://github.com/presidentbeef/brakeman)
     - Development
-        - [Dotenv Rails](https://github.com/bkeepers/dotenv)
         - [Pry](https://github.com/pry/pry)
         - [Pry ByeBug](https://github.com/deivid-rodriguez/pry-byebug)
         - [Pry Remote](https://github.com/Mon-Ouie/pry-remote)
         - [Pry Rescue](https://github.com/ConradIrwin/pry-rescue)
         - [Pry Stack Explorer](https://github.com/pry/pry-stack_explorer)
+        - [Pry State](https://github.com/SudhagarS/pry-state)
         - [Bond](https://github.com/cldwalker/bond)
         - [Wirb](https://github.com/janlelis/wirb)
         - [Hirb](https://github.com/cldwalker/hirb)
@@ -68,17 +66,18 @@ be installed via a single command.
     - Testing
         - [RSpec Rails](https://github.com/dchelimsky/rspec-rails)
     - Metrics
+        - [Benchmark IPS](https://github.com/evanphx/benchmark-ips)
         - [LoL DBA](https://github.com/plentz/lol_dba)
         - [Request Log Analyzer](https://github.com/wvanbergen/request-log-analyzer)
         - [FnordMetric](https://github.com/paulasmuth/fnordmetric)
         - [Site Validator](https://github.com/jaimeiniesta/site_validator)
         - [gctools](https://github.com/tmm1/gctools)
         - [Memory Profiler](https://github.com/SamSaffron/memory_profiler)
+        - [ruby-prof](https://github.com/ruby-prof/ruby-prof).
     - Continuous Integration (CI)
         - [Travis](https://github.com/travis-ci/travis)
         - [Travis Lint](https://github.com/travis-ci/travis-lint)
     - Code Quality
-        - [SimpleCov](https://github.com/colszowka/simplecov)
         - [CSS CSS](https://github.com/zmoazeni/csscss)
         - [Cane](https://github.com/square/cane)
         - [Rubocop](https://github.com/bbatsov/rubocop)
@@ -88,11 +87,11 @@ be installed via a single command.
         - [Heroku+](https://github.com/bkuhlmann/heroku_plus)
     - Documentation
         - [Inch](https://github.com/rrrene/inch)
+        - [gem-man](https://github.com/defunkt/gem-man).
     - Utilities
         - [Sublime Text Kit](https://github.com/bkuhlmann/sublime_text_kit)
         - [Pennyworth](https://github.com/bkuhlmann/pennyworth)
         - [Flacsmith](https://github.com/bkuhlmann/flacsmith)
-        - [Showterm](https://github.com/Conradirwin/showterm)
         - [Powder](https://github.com/Rodreegez/powder)
         - [Foreman](https://github.com/ddollar/foreman)
         - [t](https://github.com/sferik/t)
@@ -109,7 +108,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/ruby_setup.git
     cd ruby_setup
-    git checkout v2.0.0
+    git checkout v3.0.0
 
 Master Version (unstable):
 
