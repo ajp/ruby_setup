@@ -73,7 +73,7 @@ be installed via a single command.
         - [Site Validator](https://github.com/jaimeiniesta/site_validator)
         - [gctools](https://github.com/tmm1/gctools)
         - [Memory Profiler](https://github.com/SamSaffron/memory_profiler)
-        - [ruby-prof](https://github.com/ruby-prof/ruby-prof).
+        - [ruby-prof](https://github.com/ruby-prof/ruby-prof)
     - Continuous Integration (CI)
         - [Travis](https://github.com/travis-ci/travis)
         - [Travis Lint](https://github.com/travis-ci/travis-lint)
@@ -87,7 +87,7 @@ be installed via a single command.
         - [Heroku+](https://github.com/bkuhlmann/heroku_plus)
     - Documentation
         - [Inch](https://github.com/rrrene/inch)
-        - [gem-man](https://github.com/defunkt/gem-man).
+        - [gem-man](https://github.com/defunkt/gem-man)
     - Utilities
         - [Sublime Text Kit](https://github.com/bkuhlmann/sublime_text_kit)
         - [Pennyworth](https://github.com/bkuhlmann/pennyworth)
@@ -169,4 +169,4 @@ Built with [Bashsmith](https://github.com/bkuhlmann/bashsmith).
 
 # Credits
 
-Developed by [Brooke Kuhlmann](https://www.alchemists.io) at [Alchemists](https://www.alchemists.io)
+Developed by [Brooke Kuhlmann](https://www.alchemists.io) at [Alchemists](https://www.alchemists.io).
