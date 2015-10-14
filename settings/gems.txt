@@ -39,6 +39,7 @@ pry-byebug
 pry-remote
 pry-rescue
 pry-stack_explorer
+pry-state
 bond
 wirb
 hirb
