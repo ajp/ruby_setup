@@ -30,7 +30,6 @@ rmagick
 
 # Security
 bcrypt
-brakeman
 
 # Development
 dotenv-rails
