@@ -32,7 +32,6 @@ rmagick
 bcrypt
 
 # Development
-dotenv-rails
 pry
 pry-byebug
 pry-remote
