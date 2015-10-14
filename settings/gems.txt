@@ -18,7 +18,6 @@ ruby-progressbar
 sqlite3
 pg
 redis
-redis-namespace
 db --trust-policy MediumSecurity
 
 # Servers
