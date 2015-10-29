@@ -1,5 +1,7 @@
 # Ruby Setup
 
+[![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/bkuhlmann)
+
 Shell scripts for the installation and setup of Ruby (namely commonly used Ruby Gems).
 
 Sometimes, when setting up a new machine or installing a new Ruby VM, there is a need for automating the install of
