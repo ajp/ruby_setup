@@ -8,8 +8,8 @@ Sometimes, when setting up a new machine or installing a new Ruby VM, there is a
 commonly used gems (i.e. setting up your toolbox). This solves that problem by providing a master list of gems which can
 be installed via a single command.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
 # Table of Contents
 
 - [Features](#features)
@@ -23,7 +23,7 @@ be installed via a single command.
 - [History](#history)
 - [Credits](#credits)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
 
 # Features
 
