@@ -6,7 +6,7 @@ Shell scripts for the installation and setup of Ruby (namely commonly used Ruby 
 
 Sometimes, when setting up a new machine or installing a new Ruby VM, there is a need for automating the install of
 commonly used gems (i.e. setting up your toolbox). This solves that problem by providing a master list of gems which can
-be installed via a single command.
+be installed with a single command.
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
@@ -65,6 +65,7 @@ be installed via a single command.
         - [Priscilla](https://github.com/Arkham/priscilla)
         - [Rails ERD](http://rails-erd.rubyforge.org)
         - [Railroady](https://github.com/preston/railroady)
+        - [Pragmater](https://github.com/bkuhlmann/pragmater)
     - Testing
         - [RSpec Rails](https://github.com/dchelimsky/rspec-rails)
     - Metrics
@@ -110,7 +111,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/ruby_setup.git
     cd ruby_setup
-    git checkout v3.0.0
+    git checkout v3.1.0
 
 Master Version (unstable):
 

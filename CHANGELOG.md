@@ -1,3 +1,10 @@
+# v3.1.0 (2016-01-02)
+
+- Added Patreon badge to README.
+- Added [Pragmater](https://github.com/bkuhlmann/pragmater) gem.
+- Updated Code of Conduct 1.3.0.
+- Updated README with Tocer generated Table of Contents.
+
 # v3.0.0 (2015-10-14)
 
 - Fixed hanging script with invalid option.
