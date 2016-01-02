@@ -45,6 +45,7 @@ awesome_print
 priscilla
 rails-erd
 railroady
+pragmater --trust-policy MediumSecurity
 
 # Testing
 rspec-rails --trust-policy HighSecurity
