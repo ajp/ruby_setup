@@ -42,7 +42,6 @@ bond
 wirb
 hirb
 awesome_print
-priscilla
 rails-erd
 railroady
 pragmater --trust-policy MediumSecurity
