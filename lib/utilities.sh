@@ -30,7 +30,6 @@ install_bundler() {
   local bundler_config="$HOME/.bundle/config"
 
   gem install bundler
-  rbenv rehash
   bundle config --global jobs $max_jobs
 }
 export -f install_bundler
@@ -62,7 +61,6 @@ install_gems() {
 export -f install_gems
 
 apply_ctags() {
-  rbenv rehash
   gem ctags
 }
 export -f apply_ctags
