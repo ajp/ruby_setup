@@ -49,7 +49,6 @@ rspec-rails --trust-policy HighSecurity
 # Metrics
 benchmark-ips
 request-log-analyzer
-fnordmetric
 
 # Continuous Integration (CI)
 travis
