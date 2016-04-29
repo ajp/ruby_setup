@@ -52,7 +52,6 @@ request-log-analyzer
 fnordmetric
 site_validator
 gctools
-memory_profiler
 
 # Continuous Integration (CI)
 travis
