@@ -48,7 +48,6 @@ rspec-rails --trust-policy HighSecurity
 
 # Metrics
 benchmark-ips
-lol_dba
 request-log-analyzer
 fnordmetric
 site_validator
