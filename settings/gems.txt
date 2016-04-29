@@ -60,7 +60,6 @@ travis
 travis-lint
 
 # Code Quality
-cane
 rubocop
 rails_best_practices
 
