@@ -11,9 +11,6 @@ gemsmith --trust-policy MediumSecurity
 gitfinger
 octokit
 
-# Command Line Interface (CLI)
-ruby-progressbar
-
 # Databases
 sqlite3
 pg
