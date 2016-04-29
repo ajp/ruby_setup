@@ -65,10 +65,6 @@ cane
 rubocop
 rails_best_practices
 
-# Deployment
-capistrano
-heroku_plus --trust-policy MediumSecurity
-
 # Documentation
 inch
 gem-man
