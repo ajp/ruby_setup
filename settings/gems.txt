@@ -53,7 +53,6 @@ fnordmetric
 site_validator
 gctools
 memory_profiler
-ruby-prof
 
 # Continuous Integration (CI)
 travis
