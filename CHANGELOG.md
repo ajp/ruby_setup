@@ -1,3 +1,23 @@
+# v4.0.0 (2016-04-30)
+
+- Fixed contributing guideline links.
+- Added GitHub issue and pull request templates.
+- Updated GitHub issue and pull request templates.
+- Updated to Code of Conduct, Version 1.4.0.
+- Removed Priscilla gem support.
+- Removed all deployment gems.
+- Removed cane gem.
+- Removed csscss gem.
+- Removed fnordmetric gem.
+- Removed gctools gem.
+- Removed lol_dba gem.
+- Removed memory_profiler gem.
+- Removed rbenv support.
+- Removed request-log-analyzer gem.
+- Removed ruby-prof gem.
+- Removed ruby-progressbar gem.
+- Removed site_validator gem.
+
 # v3.1.0 (2016-01-02)
 
 - Added Patreon badge to README.

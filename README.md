@@ -4,7 +4,7 @@
 
 Shell scripts for the installation and setup of Ruby (namely commonly used Ruby Gems).
 
-Sometimes, when setting up a new machine or installing a new Ruby VM, there is a need for automating the install of
+Sometimes, when setting up a new machine or installing a new Ruby version, there is a need for automating the install of
 commonly used gems (i.e. setting up your toolbox). This solves that problem by providing a master list of gems which can
 be installed with a single command.
 
@@ -36,8 +36,6 @@ be installed with a single command.
     - Git
         - [Gitfinger](https://github.com/danchoi/gitfinger)
         - [Octokit](https://github.com/pengwynn/octokit)
-    - Command Line Interface (CLI)
-        - [Progress Bar](https://github.com/jfelchner/ruby-progressbar)
     - Databases
         - [SQLite3](http://www.sqlite.org)
         - [PG](http://www.postgresql.org)
@@ -55,14 +53,13 @@ be installed with a single command.
         - [Pry](https://github.com/pry/pry)
         - [Pry ByeBug](https://github.com/deivid-rodriguez/pry-byebug)
         - [Pry Remote](https://github.com/Mon-Ouie/pry-remote)
+        - [Pry State](https://github.com/SudhagarS/pry-state)
         - [Pry Rescue](https://github.com/ConradIrwin/pry-rescue)
         - [Pry Stack Explorer](https://github.com/pry/pry-stack_explorer)
-        - [Pry State](https://github.com/SudhagarS/pry-state)
         - [Bond](https://github.com/cldwalker/bond)
         - [Wirb](https://github.com/janlelis/wirb)
         - [Hirb](https://github.com/cldwalker/hirb)
         - [Awesome Print](https://github.com/michaeldv/awesome_print)
-        - [Priscilla](https://github.com/Arkham/priscilla)
         - [Rails ERD](http://rails-erd.rubyforge.org)
         - [Railroady](https://github.com/preston/railroady)
         - [Pragmater](https://github.com/bkuhlmann/pragmater)
@@ -70,24 +67,12 @@ be installed with a single command.
         - [RSpec Rails](https://github.com/dchelimsky/rspec-rails)
     - Metrics
         - [Benchmark IPS](https://github.com/evanphx/benchmark-ips)
-        - [LoL DBA](https://github.com/plentz/lol_dba)
-        - [Request Log Analyzer](https://github.com/wvanbergen/request-log-analyzer)
-        - [FnordMetric](https://github.com/paulasmuth/fnordmetric)
-        - [Site Validator](https://github.com/jaimeiniesta/site_validator)
-        - [gctools](https://github.com/tmm1/gctools)
-        - [Memory Profiler](https://github.com/SamSaffron/memory_profiler)
-        - [ruby-prof](https://github.com/ruby-prof/ruby-prof)
     - Continuous Integration (CI)
         - [Travis](https://github.com/travis-ci/travis)
         - [Travis Lint](https://github.com/travis-ci/travis-lint)
     - Code Quality
-        - [CSS CSS](https://github.com/zmoazeni/csscss)
-        - [Cane](https://github.com/square/cane)
         - [Rubocop](https://github.com/bbatsov/rubocop)
         - [Rails Best Practices](https://github.com/railsbp/rails_best_practices)
-    - Deployment
-        - [Capistrano](https://github.com/capistrano/capistrano)
-        - [Heroku+](https://github.com/bkuhlmann/heroku_plus)
     - Documentation
         - [Inch](https://github.com/rrrene/inch)
         - [gem-man](https://github.com/defunkt/gem-man)
@@ -111,7 +96,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/ruby_setup.git
     cd ruby_setup
-    git checkout v3.1.0
+    git checkout v4.0.0
 
 Master Version (unstable):
 
