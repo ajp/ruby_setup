@@ -23,7 +23,6 @@ puma
 # Application
 rake
 rails
-rmagick
 
 # Security
 bcrypt
