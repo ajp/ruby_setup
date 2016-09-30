@@ -4,9 +4,9 @@
 
 Shell scripts for the installation and setup of Ruby (namely commonly used Ruby Gems).
 
-Sometimes, when setting up a new machine or installing a new Ruby version, there is a need for automating the install of
-commonly used gems (i.e. setting up your toolbox). This solves that problem by providing a master list of gems which can
-be installed with a single command.
+Sometimes, when setting up a new machine or installing a new Ruby version, there is a need for
+automating the install of commonly used gems (i.e. setting up your toolbox). This solves that
+problem by providing a master list of gems which can be installed with a single command.
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
@@ -46,16 +46,12 @@ be installed with a single command.
     - Application
         - [Rake](http://rake.rubyforge.org)
         - [Ruby on Rails](http://rubyonrails.org)
-        - [RMagick](https://github.com/rmagick/rmagick)
     - Security
         - [Bcrypt](https://github.com/codahale/bcrypt-ruby)
     - Development
         - [Pry](https://github.com/pry/pry)
         - [Pry ByeBug](https://github.com/deivid-rodriguez/pry-byebug)
-        - [Pry Remote](https://github.com/Mon-Ouie/pry-remote)
         - [Pry State](https://github.com/SudhagarS/pry-state)
-        - [Pry Rescue](https://github.com/ConradIrwin/pry-rescue)
-        - [Pry Stack Explorer](https://github.com/pry/pry-stack_explorer)
         - [Bond](https://github.com/cldwalker/bond)
         - [Wirb](https://github.com/janlelis/wirb)
         - [Hirb](https://github.com/cldwalker/hirb)
@@ -86,7 +82,7 @@ be installed with a single command.
 
 # Requirements
 
-- [OSX](http://www.apple.com/osx)
+- [macOS](http://www.apple.com/macos)
 
 # Setup
 
@@ -96,7 +92,7 @@ Current Version (stable):
 
     git clone git://github.com/bkuhlmann/ruby_setup.git
     cd ruby_setup
-    git checkout v4.0.0
+    git checkout v5.0.0
 
 Master Version (unstable):
 
@@ -105,7 +101,8 @@ Master Version (unstable):
 
 # Usage
 
-Edit the certificate or gem settings as you see fit (blank lines and lines that begin with '#' will be ignored):
+Edit the certificate or gem settings as you see fit (blank lines and lines that begin with '#' will
+be ignored):
 
 - settings/certs.txt = Defines gem certificate URLs to install.
 - settings/gems.txt = Defines gems to install.
@@ -138,8 +135,8 @@ Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 
 # Code of Conduct
 
-Please note that this project is released with a [CODE OF CONDUCT](CODE_OF_CONDUCT.md). By participating in this project
-you agree to abide by its terms.
+Please note that this project is released with a [CODE OF CONDUCT](CODE_OF_CONDUCT.md). By
+participating in this project you agree to abide by its terms.
 
 # Contributions
 

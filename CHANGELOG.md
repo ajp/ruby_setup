@@ -1,3 +1,8 @@
+# v5.0.0 (2016-09-30)
+
+- Removed pry-remote, pry-rescue, and pry-stack_explorer gems.
+- Removed rmagick gem.
+
 # v4.0.0 (2016-04-30)
 
 - Fixed contributing guideline links.
