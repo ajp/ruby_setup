@@ -31,4 +31,6 @@ while true; do
     process_option $1
     printf "\n"
   fi
+
+  break
 done

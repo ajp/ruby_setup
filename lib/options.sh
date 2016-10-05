@@ -9,28 +9,21 @@
 process_option() {
   case $1 in
     'c')
-      install_certs
-      break;;
+      install_certs;;
     'b')
-      install_bundler
-      break;;
+      install_bundler;;
     'g')
-      install_gems
-      break;;
+      install_gems;;
     't')
-      apply_ctags
-      break;;
+      apply_ctags;;
     'i')
       install_certs
       install_bundler
       install_gems
-      apply_ctags
-      break;;
-    'q')
-      break;;
+      apply_ctags;;
+    'q');;
     *)
-      printf "ERROR: Invalid option.\n"
-      break;;
+      printf "ERROR: Invalid option.\n";;
   esac
 }
 export -f process_option
