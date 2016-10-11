@@ -76,7 +76,6 @@ problem by providing a master list of gems which can be installed with a single 
         - [Sublime Text Kit](https://github.com/bkuhlmann/sublime_text_kit)
         - [Pennyworth](https://github.com/bkuhlmann/pennyworth)
         - [Flacsmith](https://github.com/bkuhlmann/flacsmith)
-        - [Powder](https://github.com/Rodreegez/powder)
         - [Foreman](https://github.com/ddollar/foreman)
         - [t](https://github.com/sferik/t)
 
@@ -92,7 +91,7 @@ Current Version (stable):
 
     git clone https://github.com/bkuhlmann/ruby_setup.git
     cd ruby_setup
-    git checkout v5.0.0
+    git checkout v6.0.0
 
 Master Version (unstable):
 
@@ -104,12 +103,12 @@ Master Version (unstable):
 Edit the certificate or gem settings as you see fit (blank lines and lines that begin with '#' will
 be ignored):
 
-- settings/certs.txt = Defines gem certificate URLs to install.
-- settings/gems.txt = Defines gems to install.
+- `settings/certs.txt`: Defines gem certificate URLs to install.
+- `settings/gems.txt`: Defines gems to install.
 
 Once all settings are configured, open a terminal window to execute the following command:
 
-    ./run.sh
+    bin/run
 
 Running the script will present the following options:
 
@@ -122,8 +121,8 @@ Running the script will present the following options:
 
 Choose option 'i' to install.
 
-The options prompt can be skipped by passing the desired option directly to the run.sh script.
-For example, executing "./run.sh i" will execute the install.
+The options prompt can be skipped by passing the desired option directly to the `bin/run` script.
+For example, executing "bin/run i" will execute the install.
 
 # Versioning
 
@@ -154,4 +153,5 @@ Built with [Bashsmith](https://github.com/bkuhlmann/bashsmith).
 
 # Credits
 
-Developed by [Brooke Kuhlmann](https://www.alchemists.io) at [Alchemists](https://www.alchemists.io).
+Developed by [Brooke Kuhlmann](https://www.alchemists.io) at
+[Alchemists](https://www.alchemists.io).

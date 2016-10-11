@@ -1,3 +1,11 @@
+# v6.0.0 (2016-10-11)
+
+- Fixed Bash script header to dynamically load correct environment.
+- Updated README cloning instructions to use HTTPS scheme.
+- Removed Powder gem.
+- Removed `run.sh` (use `bin/run` instead).
+- Refactored run scripts to use break statements.
+
 # v5.0.0 (2016-09-30)
 
 - Removed pry-remote, pry-rescue, and pry-stack_explorer gems.
