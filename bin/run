@@ -3,9 +3,6 @@
 # DESCRIPTION
 # Executes the command line interface.
 
-# USAGE
-# ./run.sh OPTION
-
 # SETTINGS
 source settings/settings.sh
 
