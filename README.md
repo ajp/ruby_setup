@@ -77,7 +77,6 @@ problem by providing a master list of gems which can be installed with a single 
         - [Pennyworth](https://github.com/bkuhlmann/pennyworth)
         - [Flacsmith](https://github.com/bkuhlmann/flacsmith)
         - [Foreman](https://github.com/ddollar/foreman)
-        - [t](https://github.com/sferik/t)
 
 # Requirements
 
