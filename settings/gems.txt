@@ -50,7 +50,6 @@ travis-lint
 # Code Quality
 reek
 rubocop
-rails_best_practices
 
 # Documentation
 inch

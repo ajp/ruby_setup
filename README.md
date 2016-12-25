@@ -66,7 +66,6 @@ problem by providing a master list of gems which can be installed with a single 
         - [Travis Lint](https://github.com/travis-ci/travis-lint)
     - Code Quality
         - [Rubocop](https://github.com/bbatsov/rubocop)
-        - [Rails Best Practices](https://github.com/railsbp/rails_best_practices)
     - Documentation
         - [Inch](https://github.com/rrrene/inch)
         - [gem-man](https://github.com/defunkt/gem-man)
