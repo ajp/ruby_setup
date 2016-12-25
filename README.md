@@ -56,7 +56,6 @@ problem by providing a master list of gems which can be installed with a single 
         - [Wirb](https://github.com/janlelis/wirb)
         - [Hirb](https://github.com/cldwalker/hirb)
         - [Awesome Print](https://github.com/michaeldv/awesome_print)
-        - [Rails ERD](http://rails-erd.rubyforge.org)
         - [Railroady](https://github.com/preston/railroady)
         - [Pragmater](https://github.com/bkuhlmann/pragmater)
     - Testing
