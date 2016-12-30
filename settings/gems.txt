@@ -1,65 +1,68 @@
-#--------------#
-# Default Gems #
-#--------------#
-
-# Gems
-gem-ctags
-gemwhois
-gemsmith --trust-policy MediumSecurity
-
-# Git
-gitfinger
-octokit
-
-# Databases
-sqlite3
-pg
-redis
-db --trust-policy MediumSecurity
-
-# Servers
-puma
-
-# Application
-rake
-rails
-
-# Security
-bcrypt
-
-# Development
+bundler
+homesick
+addressable
+bigdecimal
+bitbucket_rest_api
+bourbon
+bundler
+bundler-unload
+celluloid
+celluloid-io
+chunky_png
+coderay
+compass
+cssmin
+descendants_tracker
+em-websocket
+eventmachine
+execjs
+executable-hooks
+faraday
+faraday_middleware
+ffi
+formatador
+fssm
+gem-wrappers
+git2bit
+github_api
+guard
+guard-compass
+guard-concat
+guard-livereload
+guard-uglify
+hashie
+hitimes
+http_parser.rb
+io-console
+json
+jwt
+listen
+lumberjack
+methadone
+method_source
+mini_portile2
+multi_json
+multi_xml
+multipart-post
+nio4r
+nokogiri
+oauth2
 pry
-pry-byebug
-pry-state
-bond
-wirb
-hirb
-awesome_print
-rails-erd
-railroady
-pragmater --trust-policy MediumSecurity
-
-# Testing
-rspec-rails --trust-policy HighSecurity
-
-# Metrics
-benchmark-ips
-
-# Continuous Integration (CI)
-travis
-travis-lint
-
-# Code Quality
-rubocop
-rails_best_practices
-
-# Documentation
-inch
-gem-man
-
-# Utilities
-sublime_text_kit --trust-policy MediumSecurity
-pennyworth --trust-policy MediumSecurity
-flacsmith --trust-policy MediumSecurity
-foreman
-t
+psych
+rack
+rake
+rb-fsevent
+rb-inotify
+rdoc
+rmagick
+rubygems-bundler
+rvm
+sass
+screengif
+simple_oauth
+slop
+susy
+thor
+thread_safe
+timers
+uglifier

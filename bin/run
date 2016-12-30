@@ -15,6 +15,7 @@ while true; do
   if [[ $# == 0 ]]; then
     printf "\nUsage: run OPTION\n\n"
     printf "Ruby Setup Options:\n"
+    printf "rvm: Install RVM.\n"
     printf "  c: Install certificates.\n"
     printf "  b: Install and configure Bundler.\n"
     printf "  g: Install gems.\n"

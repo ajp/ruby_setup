@@ -2,8 +2,3 @@
 # Default Certificates #
 #----------------------#
 
-# Alchemists Gems
-https://www.alchemists.io/gem-public.pem
-
-# RSpec
-https://raw.githubusercontent.com/rspec/rspec/858e0c2ac849d941bfd5b3a5c5e04a4f596fe666/certs/rspec.pem
